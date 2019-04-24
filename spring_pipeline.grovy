@@ -1,0 +1,8 @@
+#!/usr/bin/groovy
+
+    stage('checkout'){
+        node 
+        {
+            sh "echo testando"    
+        }
+}
